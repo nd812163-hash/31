@@ -1,0 +1,43 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: cadetblue;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card {
+	background-color: white;
+	border-radius: 12px;
+	overflow: hidden;
+}
+
+.card img {
+	width: 500px;
+	height: auto;
+}
+
+.card-description {
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.card-link {
+	padding: 8px 12px;
+	background-color: aquamarine;
+	width: max-content;
+	border-radius: 8px;
+	color: black;
+	font-weight: 500;
+	text-decoration: none;
+	text-transform: uppercase;
+}
